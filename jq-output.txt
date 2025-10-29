@@ -1,0 +1,169 @@
+{
+  "name": "LTO",
+  "dur": 38378,
+  "args": null
+}
+{
+  "name": "OptFunction",
+  "dur": 1009,
+  "args": {
+    "detail": "zlibVersion"
+  }
+}
+{
+  "name": "OptModule",
+  "dur": 1371,
+  "args": {
+    "detail": "/users/ddavis65/zdriver/target/release/deps/liblibz_sys-74b50e702475f077.rlib(f0389296f42960e9-zutil.o at 462088)"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 846,
+  "args": {
+    "detail": "__rust_alloc"
+  }
+}
+{
+  "name": "OptModule",
+  "dur": 2507,
+  "args": {
+    "detail": "/users/ddavis65/zdriver/target/release/deps/zdriver-a673485c81b036df.1e0xuxeraegu5jhf.rcgu.o"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 732,
+  "args": {
+    "detail": "_ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17h2a08add3ed4b8a0aE"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 865,
+  "args": {
+    "detail": "_ZN42_$LT$$RF$T$u20$as$u20$core..fmt..Debug$GT$3fmt17h95395526e9ea6f9fE"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 933,
+  "args": {
+    "detail": "_ZN42_$LT$$RF$T$u20$as$u20$core..fmt..Debug$GT$3fmt17hc7227c371a75eb73E"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 672,
+  "args": {
+    "detail": "_ZN4core3fmt3num52_$LT$impl$u20$core..fmt..Debug$u20$for$u20$usize$GT$3fmt17h611c4d2f8ff4d274E"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 688,
+  "args": {
+    "detail": "_ZN64_$LT$core..str..error..Utf8Error$u20$as$u20$core..fmt..Debug$GT$3fmt17h8b9cfe525d0acc0fE"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 1038,
+  "args": {
+    "detail": "_ZN7zdriver4main17h6afae11a23fbbcfbE"
+  }
+}
+{
+  "name": "OptFunction",
+  "dur": 520,
+  "args": {
+    "detail": "main"
+  }
+}
+{
+  "name": "OptModule",
+  "dur": 8260,
+  "args": {
+    "detail": "/users/ddavis65/zdriver/target/release/deps/zdriver-a673485c81b036df.zdriver.c840569e910e0c3e-cgu.0.rcgu.o"
+  }
+}
+{
+  "name": "Total LTO",
+  "dur": 38378,
+  "args": {
+    "count": 1,
+    "avg ms": 38
+  }
+}
+{
+  "name": "Total OptModule",
+  "dur": 12138,
+  "args": {
+    "count": 3,
+    "avg ms": 4
+  }
+}
+{
+  "name": "Total OptFunction",
+  "dur": 11143,
+  "args": {
+    "count": 21,
+    "avg ms": 0
+  }
+}
+{
+  "name": "Total GlobalOptPass",
+  "dur": 84,
+  "args": {
+    "count": 6,
+    "avg ms": 0
+  }
+}
+{
+  "name": "Total MemCpyOptPass",
+  "dur": 38,
+  "args": {
+    "count": 22,
+    "avg ms": 0
+  }
+}
+{
+  "name": "Total OpenMPOptCGSCCPass",
+  "dur": 11,
+  "args": {
+    "count": 22,
+    "avg ms": 0
+  }
+}
+{
+  "name": "Total OptimizationRemarkEmitterAnalysis",
+  "dur": 11,
+  "args": {
+    "count": 37,
+    "avg ms": 0
+  }
+}
+{
+  "name": "Total OpenMPOptPass",
+  "dur": 11,
+  "args": {
+    "count": 3,
+    "avg ms": 0
+  }
+}
+{
+  "name": "Total ProfileSummaryAnalysis",
+  "dur": 4,
+  "args": {
+    "count": 3,
+    "avg ms": 0
+  }
+}
+{
+  "name": "Total RequireAnalysisPass<llvm::ProfileSummaryAnalysis, llvm::Module, llvm::AnalysisManager<Module>>",
+  "dur": 0,
+  "args": {
+    "count": 3,
+    "avg ms": 0
+  }
+}
