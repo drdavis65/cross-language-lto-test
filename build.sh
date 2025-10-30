@@ -11,12 +11,13 @@ export AR_${TARGET//-/_}=llvm-ar-17
 export RANLIB=llvm-ranlib-17
 export RANLIB_${TARGET//-/_}=llvm-ranlib-17
 
-export CFLAGS="-O3 -g -flto=thin"
+export CFLAGS="-O3 -g -flto"
 export CFLAGS_${TARGET//-/_}="$CFLAGS"
 
 export LIBZ_SYS_STATIC=1
 
 export RUSTFLAGS="\
+  -C debuginfo=2 \
   -C linker-plugin-lto \
   -C opt-level=3 \
   -C codegen-units=1 \
